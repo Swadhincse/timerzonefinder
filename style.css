@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff; 
+    color: #000; 
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #000; 
+}
+
+input[type="text"],
+button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    border: 1px solid #000; 
+    border-radius: 5px;
+}
+
+button {
+    background-color: #000;
+    color: #fff; 
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+#current-timezone,
+#address-timezone {
+    margin-top: 20px;
+    font-size: 18px;
+}
